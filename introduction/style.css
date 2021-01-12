@@ -38,6 +38,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	background-color: #000;
+	border-bottom: 5px solid white;
 }
 header .header-content {
 	display: flex;
