@@ -61,11 +61,6 @@ header .header-content {
 	height: 413px;
 	background: url("../images/logo-bg.jpg") center no-repeat;
 	background-size: cover;
-
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
 }
 .logo * {
 	font-size: 28px;
