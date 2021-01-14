@@ -118,7 +118,7 @@ main {
 	align-items: center;
 	position: relative;
 	background-color: rgb(241, 178, 1);
-	padding-top: 60px;
+	padding-top: 45px;
 	z-index: -2;
 
 	min-height: 640px;
