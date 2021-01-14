@@ -57,7 +57,7 @@ header .header-content {
 	text-align: center;
 	width: 820px;
 	height: 320px;
-	background: url("images/logo-bg.webp") center no-repeat;
+	background: url("images/logo-bg.jpg") center no-repeat;
 	background-size: cover;
 }
 .logo img {
@@ -272,7 +272,7 @@ footer {
 	.logo {
 		width: 500px;
 		height: 195px;
-		background-image: url("images/logo-bg.webp");
+		background-image: url("images/logo-bg.jpg");
 	}
 	.logo img {
 		width: 80px;
