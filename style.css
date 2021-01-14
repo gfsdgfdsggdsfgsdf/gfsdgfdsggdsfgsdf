@@ -265,6 +265,12 @@ footer {
 	.sign-name {
 		margin-top: 30px;
 	}
+
+	/* Footer */
+
+	footer {
+		height: 140px;
+	}
 }
 @media screen and (max-width: 820px) {
 	/* Logo */
@@ -336,6 +342,12 @@ footer {
 	.sign-name {
 		margin-top: 26px;
 	}
+
+	/* Footer */
+
+	footer {
+		height: 120px;
+	}
 }
 @media screen and (max-width: 710px) {
 	/* Main */
@@ -375,6 +387,12 @@ footer {
 	.sign-name {
 		margin-top: 24px;
 	}
+
+	/* Footer */
+
+	footer {
+		height: 100px;
+	}
 }
 @media screen and (max-width: 499px) {
 	/* Logo */
@@ -382,7 +400,7 @@ footer {
 	.logo {
 		width: 320px;
 		height: 125px;
-		background-image: url("images/logo-bg.webp");
+		background-image: url("images/logo-bg.jpg");
 	}
 	.logo img {
 		width: 50px;
@@ -446,5 +464,11 @@ footer {
 	}
 	.sign-name {
 		margin-top: 10px;
+	}
+
+	/* Footer */
+
+	footer {
+		height: 60px;
 	}
 }
