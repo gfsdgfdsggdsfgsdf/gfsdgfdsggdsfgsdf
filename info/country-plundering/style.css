@@ -147,7 +147,7 @@ main::after {
 
 /* Main section headings */
 
-main h1, .article-header, .article-header span {
+main h1, .article-heading, .article-heading span {
 	font-family: "Impact";
 	font-size: 22px;
 	line-height: 35px;
@@ -161,10 +161,10 @@ main article {
 	max-width: 950px;
 }
 
-.article-header {
+.article-heading {
 	margin-bottom: 60px;
 }
-.article-header span {
+.article-heading span {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
@@ -192,7 +192,7 @@ footer {
 @media screen and (max-width: 1024px) {
 	/* Main section headings */
 
-	.headings-wrapper h1, .headings-wrapper h2, .headings-wrapper h2 span {
+	main h1, .article-heading, .article-heading span {
 		font-size: 21px;
 		line-height: 33px;
 	}
@@ -238,7 +238,7 @@ footer {
 
 	/* Main section headings */
 
-	.headings-wrapper h1, .headings-wrapper h2, .headings-wrapper h2 span {
+	main h1, .article-heading, .article-heading span {
 		font-size: 19px;
 		line-height: 31px;
 	}
@@ -267,11 +267,11 @@ footer {
 
 	/* Main section headings */
 
-	main .headings-wrapper {
+	.article-heading {
 		margin-bottom: 40px;
 	}
 
-	.headings-wrapper h1, .headings-wrapper h2, .headings-wrapper h2 span {
+	main h1, .article-heading, .article-heading span {
 		font-size: 16px;
 		line-height: 26px;
 	}
@@ -323,11 +323,11 @@ footer {
 
 	/* Main section headings */
 
-	main .headings-wrapper {
+	.article-heading {
 		margin-bottom: 30px;
 	}
 
-	.headings-wrapper h1, .headings-wrapper h2, .headings-wrapper h2 span {
+	main h1, .article-heading, .article-heading span {
 		font-size: 14px;
 		line-height: 20px;
 	}

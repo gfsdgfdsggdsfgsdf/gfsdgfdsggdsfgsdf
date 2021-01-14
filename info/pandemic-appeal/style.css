@@ -142,15 +142,13 @@ main::after {
 
 /* Main section headings */
 
-main .headings-wrapper {
-	margin: 40px 0;
-}
-
-.headings-wrapper h1 {
+.article-heading {
 	text-align: center;
 	font-family: "Impact";
 	font-size: 35px;
 	letter-spacing: 0.03em;
+
+	margin: 40px 0;
 }
 
 /* Main article section */
@@ -181,7 +179,7 @@ footer {
 @media screen and (max-width: 1024px) {
 	/* Main section headings */
 
-	.headings-wrapper h1 {
+	.article-heading {
 		font-size: 33px;
 	}
 
@@ -227,12 +225,9 @@ footer {
 
 	/* Main section headings */
 
-	main .headings-wrapper {
-		margin: 30px 0;
-	}
-
-	.headings-wrapper h1 {
+	.article-heading {
 		font-size: 30px;
+		margin: 30px 0;
 	}
 
 	/* Main article section */
@@ -255,7 +250,7 @@ footer {
 @media screen and (max-width: 710px) {
 	/* Main section headings */
 
-	.headings-wrapper h1 {
+	.article-heading {
 		font-size: 28px;
 	}
 
@@ -301,7 +296,7 @@ footer {
 
 	/* Main section headings */
 
-	.headings-wrapper h1 {
+	.article-heading {
 		font-size: 20px;
 	}
 
