@@ -230,9 +230,6 @@ footer {
 /* Other screen resolutions */
 
 @media screen and (max-width: 1024px) {
-	main {
-		background-color: green;
-	}
 	/* Main header */
 
 	.main-content h1 {
@@ -270,9 +267,6 @@ footer {
 	}
 }
 @media screen and (max-width: 820px) {
-	main {
-		background-color: orange;
-	}
 	/* Logo */
 
 	.logo {
@@ -295,6 +289,12 @@ footer {
 	header nav a {
 		font-size: 8px;
 		line-height: 27px;
+	}
+
+	/* Main */
+
+	main {
+		padding-top: 50px;
 	}
 
 	/* Main header */
@@ -338,9 +338,12 @@ footer {
 	}
 }
 @media screen and (max-width: 710px) {
+	/* Main */
+
 	main {
-		background-color: yellow;
+		padding-top: 40px;
 	}
+
 	/* Main header */
 
 	.main-content h1 {
@@ -374,9 +377,6 @@ footer {
 	}
 }
 @media screen and (max-width: 499px) {
-	main {
-		background-color: purple;
-	}
 	/* Logo */
 
 	.logo {
