@@ -68,7 +68,6 @@ header .header-content {
 .logo h1 {
 	font-size: 18px;
 	margin-top: 15px;
-	line-height: 100%;
 
 	transition: all 1.5s ease 1s;
 	opacity: 0;
