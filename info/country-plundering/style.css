@@ -147,20 +147,12 @@ main::after {
 
 /* Main section headings */
 
-main .headings-wrapper {
-	margin-bottom: 60px;
-}
-
-.headings-wrapper h1, .headings-wrapper h2, .headings-wrapper h2 span {
+main h1, .article-header, .article-header span {
 	font-family: "Impact";
 	font-size: 22px;
 	line-height: 35px;
 	color: rgb(73, 0, 0);
 	text-align: center;
-}
-.headings-wrapper h2 span {
-	text-transform: uppercase;
-	letter-spacing: 5px;
 }
 
 /* Main article section */
@@ -168,6 +160,15 @@ main .headings-wrapper {
 main article {
 	max-width: 950px;
 }
+
+.article-header {
+	margin-bottom: 60px;
+}
+.article-header span {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
 main article p {
 	font-family: "Open Sans";
 	font-size: 13px;
