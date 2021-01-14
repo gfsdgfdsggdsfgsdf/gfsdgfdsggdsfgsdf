@@ -1,15 +1,19 @@
 @font-face {
 	font-family: "Play";
 	font-weight: 700;
-	src: url("../fonts/Play-Bold.ttf") format("truetype");
+	src: url("../../fonts/Play-Bold.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Impact";
-	src: url("../fonts/impact.ttf") format("truetype");
+	src: url("../../fonts/impact.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Arial Black";
-	src: url("../fonts/Arial Black.ttf") format("truetype");
+	src: url("../../fonts/Arial Black.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Open Sans";
+	src: url("../../fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
 body {
@@ -42,7 +46,7 @@ header {
 header .header-content {
 	display: flex;
 	flex-direction: column;
-
+	
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-select: none;
@@ -58,7 +62,7 @@ header .header-content {
 	padding-top: 5px;
 	width: 980px;
 	height: 413px;
-	background: url("../images/logo-bg.jpg") center no-repeat;
+	background: url("../../images/logo-bg.jpg") center no-repeat;
 	background-size: cover;
 }
 .logo * {
@@ -118,10 +122,8 @@ main {
 	align-items: center;
 	position: relative;
 	background-color: rgb(241, 178, 1);
-	padding-top: 60px;
+	padding-top: 40px;
 	z-index: -2;
-
-	min-height: 640px;
 }
 main::after {
 	content: "";
@@ -132,35 +134,40 @@ main::after {
 	height: 100%;
 	z-index: -1;
 
-	background: url("../images/grid.png") center top repeat;
+	background: url("../../images/grid.png") center top repeat;
 }
 
-/* Main section heading */
 
-main h1 {
-	font-family: "Impact", sans-serif;
-	font-size: 35px;
-    letter-spacing: 0.03em;
-	color: #E21C21;
-	text-transform: uppercase;
+/* Main section headings */
 
-	margin-bottom: 40px;
+main .headings-wrapper {
+	margin-bottom: 60px;
 }
 
-/* Main articles links */
-
-main .articles-links {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.articles-links a {
+.headings-wrapper h1, .headings-wrapper h2, .headings-wrapper h2 span {
 	font-family: "Impact";
-	font-size: 20px;
-	text-decoration: none;
+	font-size: 22px;
+	line-height: 35px;
+	color: rgb(73, 0, 0);
+	text-align: center;
+}
+.headings-wrapper h2 span {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+/* Main article section */
+
+main article {
+	max-width: 950px;
+}
+main article p {
+	font-family: "Open Sans";
+	font-size: 13px;
 	margin-bottom: 20px;
 }
+
+
 
 
 /* Footer */

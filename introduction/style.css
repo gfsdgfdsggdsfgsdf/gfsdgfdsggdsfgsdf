@@ -4,7 +4,7 @@
 	src: url("../fonts/Play-Bold.ttf") format("truetype");
 }
 @font-face {
-	font-family: "impact";
+	font-family: "Impact";
 	src: url("../fonts/impact.ttf") format("truetype");
 }
 @font-face {
@@ -38,7 +38,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	background-color: #000;
-	border-bottom: 5px solid white;
+	border-bottom: 3px solid white;
 }
 header .header-content {
 	display: flex;
@@ -54,7 +54,7 @@ header .header-content {
 
 .logo {
 	font-family: Impact;
-	color: rgb(241, 178, 1);
+	color: #fff;
 	text-align: center;
 	padding-top: 5px;
 	width: 980px;
@@ -67,7 +67,7 @@ header .header-content {
 	line-height: 100%;
 }
 
-.logo h2 {
+.logo h1 {
 	font-size: 22px;
 	margin-top: 15px;
 
@@ -75,7 +75,7 @@ header .header-content {
 	opacity: 0;
 	transform: translateX(50px);
 }
-.logo h1 {
+.logo h2 {
 	margin-top: 45px;
 
 	transition: all 1.5s ease 2.4s;
@@ -202,5 +202,5 @@ main::after {
 footer {
 	background-color: #000;
 	height: 160px;
-	border-top: 5px solid white;
+	border-top: 3px solid white;
 }
