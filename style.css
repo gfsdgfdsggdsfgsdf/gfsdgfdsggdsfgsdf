@@ -13,7 +13,7 @@
 }
 
 body {
-	font-family: "Arial Black";
+	font-family: "Arial Black", sans-serif;
 	position: relative;
 	z-index: -1000;
 	background-color: black;
@@ -52,7 +52,7 @@ header .header-content {
 /* Logo */
 
 .logo {
-	font-family: "Impact";
+	font-family: "Impact", sans-serif;
 	color: #fff;
 	text-align: center;
 	width: 820px;
@@ -183,7 +183,7 @@ main::after {
 }
 
 .text-columns .poem pre {
-	font-family: "Arial Black";
+	font-family: "Arial Black", sans-serif;
 	font-size: 15px;
 	font-style: italic;
 }

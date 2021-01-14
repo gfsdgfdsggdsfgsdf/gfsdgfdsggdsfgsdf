@@ -17,7 +17,7 @@
 }
 
 body {
-	font-family: "Arial Black";
+	font-family: "Arial Black", sans-serif;
 	position: relative;
 	z-index: -1000;
 	background-color: black;
@@ -56,7 +56,7 @@ header .header-content {
 /* Logo */
 
 .logo {
-	font-family: Impact;
+	font-family: Impact, sans-serif;
 	color: #fff;
 	text-align: center;
 	width: 820px;
@@ -148,7 +148,7 @@ main::after {
 /* Main section headings */
 
 main h1, .article-heading, .article-heading span {
-	font-family: "Impact";
+	font-family: "Impact", sans-serif;
 	font-size: 22px;
 	line-height: 35px;
 	color: rgb(73, 0, 0);
@@ -170,7 +170,7 @@ main article {
 }
 
 main article p {
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
 	font-size: 13px;
 	margin-bottom: 20px;
 }
