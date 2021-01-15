@@ -16,7 +16,6 @@ body {
 	font-family: "Arial Black", sans-serif;
 	position: relative;
 	z-index: -1000;
-	background-color: black;
 }
 
 *, *:before, *:after {
